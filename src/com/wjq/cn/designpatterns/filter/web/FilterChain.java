@@ -12,8 +12,9 @@ public class FilterChain implements Filter {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public void addFilter(Filter filter){
+	public FilterChain addFilter(Filter filter){
 		filters.add(filter);
+		return this;
 	}
 
 	@Override

@@ -8,9 +8,10 @@ public class Main {
 		Response response=new Response();
 		response.setStr("response");
 		FilterChain chain=new FilterChain();
-		chain.addFilter(new HtmlFilter());
+		/*chain.addFilter(new HtmlFilter());
 		chain.addFilter(new FaceFilter());
-		chain.addFilter(new SensitiveFilter());
+		chain.addFilter(new SensitiveFilter());*/
+		chain.addFilter(new HtmlFilter()).addFilter(new FaceFilter()).addFilter(new SensitiveFilter());
 		
 		chain.doFilter(request, response, chain);
 		System.out.println(msg);
