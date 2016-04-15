@@ -43,6 +43,8 @@ public class Order<T> {
 		return e;
 	}
 	
+	
+	
 	/**
 	 * 实现数组到集合的复制
 	 * @param t

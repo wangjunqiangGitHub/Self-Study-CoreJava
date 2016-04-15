@@ -47,7 +47,7 @@ public class TestCollection {
 	
 	
 	
-	//@Test
+	//@TestPrintLog2
 	public void testCollection2() {
 		Collection coll = new ArrayList();
 		coll.add(123);
@@ -79,7 +79,7 @@ public class TestCollection {
 		
 	}
 
-	//@Test
+	//@TestPrintLog2
 	public void testCollection1() {
 		Collection coll = new ArrayList();
 		// 1.返回集合中元素的个数

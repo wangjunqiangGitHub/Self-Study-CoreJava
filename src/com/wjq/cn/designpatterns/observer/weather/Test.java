@@ -2,7 +2,7 @@ package com.wjq.cn.designpatterns.observer.weather;
 /**
  * 
 *  @author  wjq  
-*  @ClassName  : Test  
+*  @ClassName  : TestPrintLog2  
 *  @Version     
 *  @ModifiedBy   
 *  @Copyright  asiainfo  

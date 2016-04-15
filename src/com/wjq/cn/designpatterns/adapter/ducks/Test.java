@@ -2,7 +2,7 @@ package com.wjq.cn.designpatterns.adapter.ducks;
 /**
  * 
 *  @author  wjq  
-*  @ClassName  : Test  
+*  @ClassName  : TestPrintLog2  
 *  @Version     
 *  @ModifiedBy   
 *  @Copyright  asiainfo  

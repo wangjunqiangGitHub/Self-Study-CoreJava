@@ -56,11 +56,12 @@ public class TestSingleton {
 class Singleton {
 	// 1.首先声明构造器是私有的private
 	private Singleton() {
-
+		int b=0;
+		int a=0;
 	}
 
 	// 2.声明私有的需要返回的实例
-	private static Singleton singleton = null;
+	private static volatile Singleton singleton = null;
 
 	// 3.提供外界获取该实例对象的方法
 	public static Singleton getSingleton() {
